@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="shortcutNew"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_add"
+        android:shortcutShortLabel="@string/shortcutShortText"
+        android:shortcutLongLabel="@string/shortcutLongText"
+        android:shortcutDisabledMessage="@string/DisabledMessage">
+        <intent
+            android:action="com.sas_apps.people.QUICKSTART"
+            android:targetPackage="com.sas_apps.people"
+            android:targetClass="com.sas_apps.people.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+</shortcuts>
